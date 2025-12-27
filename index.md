@@ -258,7 +258,8 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
         <a href="https://purdue.edu" target="_blank" rel="noopener noreferrer">Purdue University</a> · West Lafayette, IN
     </div>
     <div class="entry-description">
-        GPA: 3.63/4.00 | Dean's Honors List
+        Dean's Honors List
+        GPA: 3.63/4.00
     </div>
 </div>
 
