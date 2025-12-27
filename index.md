@@ -16,7 +16,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
-        <span class="entry-title">AI Engineer</span>
+        <span class="entry-title">Software Engineer</span>
         <span class="entry-date">Mar 2025 - Present</span>
     </div>
     <div class="entry-subtitle">
