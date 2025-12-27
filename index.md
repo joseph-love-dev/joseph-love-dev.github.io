@@ -35,6 +35,23 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
+        <span class="entry-title">Software Engineer</span>
+        <span class="entry-date">Oct 2025 - Present</span>
+    </div>
+    <div class="entry-subtitle">
+        <a href="https://trashduty.shinyapps.io/cbb_model/" target="_blank" rel="noopener noreferrer">BTB Analytics</a>
+    </div>
+    <div class="entry-description">
+        <ul>
+            <li>Built automated web scrapers using Playwright and Python to aggregate game predictions from 4 analytics sources and live betting odds, running every 15 minutes via GitHub Actions</li>
+            <li>Designed a data pipeline that joins predictions from 4 independent sources using fuzzy matching to standardize team names across different naming conventions</li>
+            <li>Developed a bet grading system that compares model predictions against actual game outcomes to calculate accuracy, MAE, and RMSE for each source</li>
+        </ul>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
         <span class="entry-title">Electrical Engineering Intern</span>
         <span class="entry-date">May 2024 - Aug 2024</span>
     </div>
@@ -258,7 +275,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
         <a href="https://purdue.edu" target="_blank" rel="noopener noreferrer">Purdue University</a> · West Lafayette, IN
     </div>
     <div class="entry-description">
-        Dean's Honors List
+        Dean's Honors List<br>
         GPA: 3.63/4.00
     </div>
 </div>
