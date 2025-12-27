@@ -76,6 +76,33 @@ body {
     height: 24px;
 }
 
+/* Section navigation */
+.section-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.section-nav a {
+    display: inline-block;
+    padding: 0.4rem 0.9rem;
+    background-color: #f5f5f5;
+    color: #333333;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.section-nav a:hover {
+    background-color: #0066cc;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Main content */
 main {
     margin-bottom: 3rem;

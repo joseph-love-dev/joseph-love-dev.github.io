@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="about">
+<section class="about" id="about">
 
 <div class="section-title">About</div>
 
@@ -10,7 +10,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 </section>
 
-<section class="experience">
+<section class="experience" id="experience">
 
 <div class="section-title">Experience</div>
 
@@ -70,7 +70,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 <div class="entry">
     <div class="entry-header">
         <span class="entry-title">Avionics Team Lead</span>
-        <span class="entry-date">Jul 2023 - Present</span>
+        <span class="entry-date"> Aug 2022 - Aug 2024</span>
     </div>
     <div class="entry-subtitle">
         <a href="https://purdueseds.space/irec/" target="_blank" rel="noopener noreferrer">Purdue Space Program</a> · IREC
@@ -104,7 +104,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 <div class="entry">
     <div class="entry-header">
         <span class="entry-title">Undergraduate Teaching Assistant</span>
-        <span class="entry-date">Aug 2022 - Present</span>
+        <span class="entry-date">Aug 2022 - Aug 2023</span>
     </div>
     <div class="entry-subtitle">
         Purdue University
@@ -114,9 +114,27 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
     </div>
 </div>
 
+<div class="entry">
+    <div class="entry-header">
+        <span class="entry-title">Electrical Engineering Design Lead</span>
+        <span class="entry-date">Jan 2022 - May 2023</span>
+    </div>
+    <div class="entry-subtitle">
+        <a href="https://engineering.purdue.edu/EPICS" target="_blank" rel="noopener noreferrer">Engineering Projects in Community Service (EPICS)</a> · Project CAR
+    </div>
+    <div class="entry-description">
+        <ul>
+            <li>Led development of an electromagnetic steering wheel designed for derby cars</li>
+            <li>Created CAD files for structural components including steering wheel, electromagnets, battery, and switch</li>
+            <li>Designed electrical circuit with 14.8V battery distributing power to four electromagnets and light switch</li>
+            <li>Redesigned mechanism to reduce weight by 50% and increase electromagnet torque</li>
+        </ul>
+    </div>
+</div>
+
 </section>
 
-<section class="projects">
+<section class="projects" id="projects">
 
 <div class="section-title">Projects</div>
 
@@ -213,7 +231,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 </section>
 
-<section class="education">
+<section class="education" id="education">
 
 <div class="section-title">Education</div>
 
@@ -241,6 +259,40 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
     </div>
     <div class="entry-description">
         GPA: 3.63/4.00 | Dean's Honors List
+    </div>
+</div>
+
+</section>
+
+<section class="affiliations" id="affiliations">
+
+<div class="section-title">Affiliations</div>
+
+<div class="entry">
+    <div class="entry-header">
+        <span class="entry-title">American Institute of Aeronautics & Astronautics (AIAA)</span>
+        <span class="entry-date">Aug 2021 - 2025</span>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
+        <span class="entry-title">Purdue University Chess Club</span>
+        <span class="entry-date">Aug 2021 - 2025</span>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
+        <span class="entry-title">Students for the Exploration and Development of Space (SEDS)</span>
+        <span class="entry-date">Aug 2022 - 2025</span>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
+        <span class="entry-title">Engineering Projects in Community Service (EPICS)</span>
+        <span class="entry-date">Aug 2021 - May 2023</span>
     </div>
 </div>
 
