@@ -6,7 +6,7 @@ layout: default
 
 <div class="section-title">About</div>
 
-I am a graduate student in Electrical Engineering at Purdue University, specializing in automatic controls, AI, and machine learning. I earned my B.S. in Electrical Engineering from Purdue in May 2025. My interests span full-stack development, embedded systems, and robotics, and I enjoy tackling projects that integrate software with physical systems.
+I am a graduate student in Electrical Engineering at Purdue University, specializing in automatic controls, AI, and machine learning. I earned my B.S. in Electrical Engineering from Purdue in May 2025. My interests span full-stack development, embedded systems, and robotics. 
 
 </section>
 
