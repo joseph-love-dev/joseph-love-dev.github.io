@@ -234,7 +234,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 <div class="entry">
     <div class="entry-header">
         <span class="entry-title">B.S. Electrical Engineering</span>
-        <span class="entry-date">Expected Dec 2026</span>
+        <span class="entry-date">Graduated May 2025</span>
     </div>
     <div class="entry-subtitle">
         <a href="https://purdue.edu" target="_blank" rel="noopener noreferrer">Purdue University</a> · West Lafayette, IN
