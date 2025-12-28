@@ -157,11 +157,11 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
-        <span class="entry-title">Multi-Agent Trajectory Prediction</span>
+        <a href="/projects/bdb-2026/" class="entry-title-link">Multi-Agent Trajectory Prediction</a>
         <span class="entry-date">Aug - Dec 2025</span>
     </div>
     <div class="entry-subtitle">
-        <a href="https://youtu.be/72fd89SkvnA" target="_blank" rel="noopener noreferrer">NFL Big Data Bowl 2026</a>
+        <a href="https://operations.nfl.com/gameday/analytics/big-data-bowl/" target="_blank" rel="noopener noreferrer">NFL Big Data Bowl 2026</a>
     </div>
     <div class="entry-description">
         <ul>
@@ -170,6 +170,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
             <li>Designed cross-player attention layers (8 heads, 256-dim) to model WR-DB coverage interactions, improving lateral movement predictions by 21%</li>
         </ul>
     </div>
+    <a href="/projects/bdb-2026/" class="view-details-btn">View Details →</a>
 </div>
 
 <div class="entry">

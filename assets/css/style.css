@@ -155,6 +155,38 @@ section {
     color: #111111;
 }
 
+.entry-title-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111111;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.entry-title-link:hover {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.view-details-btn {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.4rem 0.9rem;
+    background-color: #0066cc;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.view-details-btn:hover {
+    background-color: #0052a3;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .entry-date {
     font-size: 0.9rem;
     color: #666666;
@@ -226,5 +258,146 @@ footer {
     .entry-header {
         flex-direction: column;
         gap: 0.25rem;
+    }
+}
+
+/* Project Page Styles */
+.project-page {
+    margin-bottom: 3rem;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666666;
+    text-decoration: none;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.back-link svg {
+    transition: transform 0.2s ease;
+}
+
+.back-link:hover svg {
+    transform: translateX(-3px);
+}
+
+.project-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #0066cc;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111111;
+}
+
+.project-subtitle {
+    font-size: 1.1rem;
+    color: #0066cc;
+    margin-top: 0.5rem;
+}
+
+/* Video Section */
+.video-section {
+    margin-bottom: 2.5rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Paper Section */
+.paper-section {
+    margin-bottom: 2rem;
+}
+
+.paper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.paper-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111111;
+    margin: 0;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0066cc;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.download-btn:hover {
+    background-color: #0052a3;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pdf-viewer iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Project Page Responsive */
+@media (max-width: 600px) {
+    .project-title {
+        font-size: 1.25rem;
+    }
+
+    .paper-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pdf-viewer {
+        height: 400px;
     }
 }

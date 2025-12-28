@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.title }} - {{ site.description }}">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        {% include header.html %}
+
+        <main class="project-page">
+            <a href="{{ '/#projects' | relative_url }}" class="back-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to Projects
+            </a>
+
+            <div class="project-header">
+                <div class="entry-header">
+                    <span class="project-title">{{ page.title }}</span>
+                    <span class="entry-date">{{ page.date }}</span>
+                </div>
+                {% if page.subtitle %}
+                <div class="project-subtitle">{{ page.subtitle }}</div>
+                {% endif %}
+            </div>
+
+            {% if page.video_url %}
+            <section class="video-section">
+                <div class="video-container">
+                    <iframe
+                        src="{{ page.video_url }}"
+                        title="{{ page.title }} Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+            {% endif %}
+
+            {% if page.pdf_path %}
+            <section class="paper-section">
+                <div class="paper-header">
+                    <h2 class="paper-title">Research Paper</h2>
+                    <a href="{{ page.pdf_path | relative_url }}" download class="download-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Download PDF
+                    </a>
+                </div>
+                <div class="pdf-viewer">
+                    <iframe src="{{ page.pdf_path | relative_url }}" title="{{ page.title }} Paper"></iframe>
+                </div>
+            </section>
+            {% endif %}
+
+            {{ content }}
+        </main>
+
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        </footer>
+    </div>
+</body>
+</html>
