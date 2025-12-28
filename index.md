@@ -157,6 +157,23 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
+        <span class="entry-title">Multi-Agent Trajectory Prediction</span>
+        <span class="entry-date">Aug - Dec 2025</span>
+    </div>
+    <div class="entry-subtitle">
+        <a href="https://youtu.be/72fd89SkvnA" target="_blank" rel="noopener noreferrer">NFL Big Data Bowl 2026</a>
+    </div>
+    <div class="entry-description">
+        <ul>
+            <li>Built a hierarchical transformer with role-specific trajectory decoders in PyTorch for NFL player movement prediction, achieving 2.64 yards RMSE (32.3% improvement over baseline)</li>
+            <li>Implemented learnable attention pooling to replace mean pooling for temporal aggregation, reducing prediction error by 21.7% by dynamically weighting informative input frames</li>
+            <li>Designed cross-player attention layers (8 heads, 256-dim) to model WR-DB coverage interactions, improving lateral movement predictions by 21%</li>
+        </ul>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
         <span class="entry-title">Smart Fridge</span>
         <span class="entry-date">Jan - May 2025</span>
     </div>
