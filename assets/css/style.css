@@ -386,6 +386,29 @@ footer {
     border: none;
 }
 
+.view-pdf-btn {
+    display: none;
+    width: 100%;
+    padding: 1rem;
+    background-color: #0066cc;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.view-pdf-btn:hover {
+    background-color: #0052a3;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* Project Page Responsive */
 @media (max-width: 600px) {
     .project-title {
@@ -398,6 +421,10 @@ footer {
     }
 
     .pdf-viewer {
-        height: 400px;
+        display: none;
+    }
+
+    .view-pdf-btn {
+        display: flex;
     }
 }
