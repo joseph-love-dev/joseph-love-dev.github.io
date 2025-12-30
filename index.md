@@ -175,7 +175,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
-        <span class="entry-title">Smart Fridge</span>
+        <a href="/projects/fridgesense/" class="entry-title-link">Smart Fridge</a>
         <span class="entry-date">Jan - May 2025</span>
     </div>
     <div class="entry-description">
@@ -185,6 +185,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
             <li>Authored Supabase Edge Function in TypeScript to perform UPC look-ups and enrich product records</li>
         </ul>
     </div>
+    <a href="/projects/fridgesense/" class="view-details-btn">View Details →</a>
 </div>
 
 <div class="entry">
