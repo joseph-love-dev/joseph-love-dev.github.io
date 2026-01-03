@@ -19,7 +19,7 @@ Ball Knowledge is an AI chatbot that understands fantasy football better than Ch
 
 There are two Python APIs that I built from scratch in the backend that I want to focus on. Both APIs are built with FastAPI and deployed on Railway.
 
-The first one deals with all the FantasyPoints data, which includes player projections, fantasy football data, player rankings, draft information, article content, and much more. This API is probably the part of the project that I am most proud of. I implemented semantic search with reranking for referencing articles, built automated data pipelines to process and refresh large datasets, and used a fuzzy matching system for player name resolution.
+The first one deals with all the FantasyPoints data, which includes player projections, fantasy football data, player rankings, draft information, article content, and much more. This API is probably the part of the project that I am most proud of. I implemented a RAG pipeline with semantic search and reranking for referencing articles, built automated data pipelines to process and refresh large datasets, and used a fuzzy matching system for player name resolution.
 
 The second backend API deals with historical player statistics, such as yards, touchdowns, interceptions, etc. This data goes back 25 years, meaning that we store 20+ million data points. Sorting through all this data efficiently proved to be a massive undertaking, however, if you use Ball Knowledge you can get a response in less than 10 seconds on most queries. I don't want to go into detail on how this was accomplished since some competitors are having issues with this challenge.
 
