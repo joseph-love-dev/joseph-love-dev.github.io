@@ -31,6 +31,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
             <li>Built semantic search with Cohere AI across 1000+ NFL articles with 85% player identification accuracy</li>
         </ul>
     </div>
+    <a href="/projects/fantasy-points/" class="view-details-btn">View Details →</a>
 </div>
 
 <div class="entry">
