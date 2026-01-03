@@ -25,10 +25,10 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
     <div class="entry-description">
         Creator of fantasypoints.ai - a full-stack AI-powered NFL analytics platform.
         <ul>
-            <li>Architected platform using Next.js, React Server Components, and Vercel AI SDK with real-time streaming responses</li>
-            <li>Designed 3-API architecture (Next.js frontend, Python FastAPI services) handling 20+ million NFL data points</li>
+            <li>Integrated Vercel AI SDK with custom tool system enabling real-time streaming responses and dynamic API orchestration</li>
+            <li>Designed end-to-end architecture with Next.js frontend and FastAPI microservices, handling 20+ million NFL data points</li>
             <li>Engineered high-performance data pipeline using Python Polars LazyFrames achieving 3x memory efficiency</li>
-            <li>Built semantic search with Cohere AI across 1000+ NFL articles with 85% player identification accuracy</li>
+            <li>Built RAG pipeline with Cohere reranking to surface relevant content from 1000+ NFL articles</li>
         </ul>
     </div>
     <a href="/projects/fantasy-points/" class="view-details-btn">View Details →</a>
