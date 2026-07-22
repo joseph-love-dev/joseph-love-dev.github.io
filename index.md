@@ -16,6 +16,24 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
+        <span class="entry-title">Graduate Engineer</span>
+        <span class="entry-date">May 2026 - Present</span>
+    </div>
+    <div class="entry-subtitle">
+        <a href="https://www.spacex.com" target="_blank" rel="noopener noreferrer">SpaceX</a> · Starbase, TX
+    </div>
+    <div class="entry-description">
+        <ul>
+            <li>Architected and shipped a production multi-agent LLM assistant for manufacturing managers, using a Flue TypeScript coordinator to route questions across 11 custom Pi subagents in parallel on a Grok LLM</li>
+            <li>Ported 3+ production Power BI semantic models to tested Python pandas pipelines with a build-then-swap refresh daemon, multi-tier caching, and 500+ automated tests</li>
+            <li>Integrated 5+ live factory systems via a custom MCP tool bridge with automatic OAuth2 token refresh</li>
+            <li>Containerized the full stack as a single Docker image behind Nginx and oauth2-proxy with header-based identity for per-user personalization</li>
+        </ul>
+    </div>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
         <span class="entry-title">Software Engineer</span>
         <span class="entry-date">Mar 2025 - Present</span>
     </div>

@@ -8,7 +8,7 @@ back_link: "/#experience"
 back_text: "Back to Experience"
 ---
 
-Since Ball Knowledge is locked behind a paywall, I figured I would write a bit more to explain more about the project. I cannot go into complete detail about the stack (it is a paid FantasyPoints product after all), but my goal is to give some more insight on my ability to build something real and production grade.
+Since Ball Knowledge is locked behind a paywall, I figured I would write a bit more to explain more about the project. Below I walk through the full stack — the Next.js frontend, the two Python APIs I built from scratch, and the AI tool system that connects them — to give some more insight on my ability to build something real and production grade.
 
 
 ## What is it?
@@ -21,7 +21,7 @@ There are two Python APIs that I built from scratch in the backend that I want t
 
 The first one deals with all the FantasyPoints data, which includes player projections, fantasy football data, player rankings, draft information, article content, and much more. This API is probably the part of the project that I am most proud of. I implemented a RAG pipeline with semantic search and reranking for referencing articles, built automated data pipelines to process and refresh large datasets, and used a fuzzy matching system for player name resolution.
 
-The second backend API deals with historical player statistics, such as yards, touchdowns, interceptions, etc. This data goes back 25 years, meaning that we store 20+ million data points. Sorting through all this data efficiently proved to be a massive undertaking, however, if you use Ball Knowledge you can get a response in less than 10 seconds on most queries. I don't want to go into detail on how this was accomplished since some competitors are having issues with this challenge.
+The second backend API deals with historical player statistics, such as yards, touchdowns, interceptions, etc. This data goes back 25 years, meaning that we store 20+ million data points. Sorting through all this data efficiently proved to be a massive undertaking, however, if you use Ball Knowledge you can get a response in less than 10 seconds on most queries. The key was using Polars LazyFrames, which defer computation until the entire query is built, and consolidating each season's play-by-play data into single Parquet files so queries only scan the columns they actually need. Aggressive memory management on top of that keeps the API responsive even on queries spanning multiple seasons.
 
 ## Frontend
 
