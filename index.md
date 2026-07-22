@@ -55,7 +55,7 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 <div class="entry">
     <div class="entry-header">
         <span class="entry-title">Software Engineer</span>
-        <span class="entry-date">Oct 2025 - Present</span>
+        <span class="entry-date">Oct 2025 - Mar 2026</span>
     </div>
     <div class="entry-subtitle">
         <a href="https://trashduty.shinyapps.io/cbb_model/" target="_blank" rel="noopener noreferrer">BTB Analytics</a>
