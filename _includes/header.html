@@ -27,9 +27,37 @@
     <nav class="section-nav">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
+        <div class="nav-dropdown">
+            <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">Projects</button>
+            <div class="nav-dropdown-menu">
+                <div class="nav-dropdown-menu-inner">
+                    <a href="/projects/fantasy-points/">Ball Knowledge</a>
+                    <a href="/projects/rome/">Map of Rome</a>
+                    <a href="/projects/bdb-2026/">Multi-Agent Trajectory Prediction</a>
+                    <a href="/projects/fridgesense/">Smart Fridge</a>
+                    <a href="#projects" class="nav-dropdown-all">All Projects</a>
+                </div>
+            </div>
+        </div>
         <a href="#education">Education</a>
         <a href="#affiliations">Affiliations</a>
     </nav>
+    <script>
+        (function () {
+            var dropdown = document.querySelector('.nav-dropdown');
+            if (!dropdown) return;
+            var toggle = dropdown.querySelector('.nav-dropdown-toggle');
+            toggle.addEventListener('click', function () {
+                var open = dropdown.classList.toggle('open');
+                toggle.setAttribute('aria-expanded', open);
+            });
+            document.addEventListener('click', function (e) {
+                if (!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        })();
+    </script>
     {% endunless %}
 </header>

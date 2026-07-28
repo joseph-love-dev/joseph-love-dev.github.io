@@ -176,6 +176,24 @@ I am a graduate student in Electrical Engineering at Purdue University, speciali
 
 <div class="entry">
     <div class="entry-header">
+        <a href="/projects/rome/" class="entry-title-link">Map of Rome</a>
+        <span class="entry-date">Jul 2026</span>
+    </div>
+    <div class="entry-subtitle">
+        <a href="https://mapofrome.com" target="_blank" rel="noopener noreferrer">mapofrome.com</a>
+    </div>
+    <div class="entry-description">
+        <ul>
+            <li>Built an interactive map of Roman history covering every year from 753 BC to AD 476, with 590+ events, 31 battle breakdowns, and 31 followable historical figures</li>
+            <li>Rendered with MapLibre GL and a Next.js static export, using Node scripts to precompute yearly borders from DARE province polygons</li>
+            <li>Generated the city view of Rome from open elevation tiles and OpenStreetMap data, lazily fetched as you zoom in</li>
+        </ul>
+    </div>
+    <a href="/projects/rome/" class="view-details-btn">View Details →</a>
+</div>
+
+<div class="entry">
+    <div class="entry-header">
         <a href="/projects/bdb-2026/" class="entry-title-link">Multi-Agent Trajectory Prediction</a>
         <span class="entry-date">Aug - Dec 2025</span>
     </div>
